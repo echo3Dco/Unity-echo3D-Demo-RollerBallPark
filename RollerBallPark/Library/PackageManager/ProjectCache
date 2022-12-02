@@ -13,10 +13,18 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637952224642511385
-    m_Hash: 2558866676
+      ticks: 638055429724740893
+    m_Hash: 833069305
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Users/Bebe/Documents/GitHub/Unity-echo3D-Demo-RollerBallPark/RollerBallPark/Packages/co.echo3d.unity/package.json:
+      m_FilePath: C:/Users/Bebe/Documents/GitHub/Unity-echo3D-Demo-RollerBallPark/RollerBallPark/Packages/co.echo3d.unity/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 637973949740000000
+      m_Hash: 662981
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
@@ -34,7 +42,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Editor
-      type: 
+      type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
@@ -93,6 +101,8 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -116,6 +126,8 @@ m_PackageAssets:
         - 1.17.0
         - 1.17.1
         - 1.17.2
+        - 1.17.6
+        - 1.17.7
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -161,7 +173,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -187,7 +199,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: "The Unity FBX Exporter package makes it easy to send geometry
         and animation to any application that supports the FBX format and send them
         back to Unity with minimal effort.\n\nIn particular, this round-trip workflow
@@ -220,6 +232,8 @@ m_PackageAssets:
         - 4.1.1
         - 4.1.2
         - 4.2.0-pre.1
+        - 4.2.0
+        - 5.0.0-pre.1
         compatible:
         - 2.0.1-preview.2
         - 2.0.1-preview.4
@@ -240,6 +254,8 @@ m_PackageAssets:
         - 4.1.1
         - 4.1.2
         - 4.2.0-pre.1
+        - 4.2.0
+        - 5.0.0-pre.1
         verified: 
       dependencies:
       - name: com.unity.timeline
@@ -273,7 +289,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -299,7 +315,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
@@ -338,6 +354,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         compatible:
         - 1.0.2
         - 1.0.6
@@ -370,6 +387,7 @@ m_PackageAssets:
         - 3.0.13
         - 3.0.14
         - 3.0.15
+        - 3.0.16
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -392,7 +410,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -418,7 +436,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio as code editor
         for unity. Adds support for generating csproj files for intellisense purposes,
         auto discovery of installations, etc.
@@ -487,7 +505,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -513,7 +531,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -560,7 +578,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -586,7 +604,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Unity Test Framework
-      type: 
+      type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
       errors: []
@@ -626,7 +644,10 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
+        - 1.3.1
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
@@ -634,7 +655,10 @@ m_PackageAssets:
         - 1.1.30
         - 1.1.31
         - 1.1.33
+        - 1.3.0
+        - 1.3.1
         - 2.0.1-exp.1
+        - 2.0.1-exp.2
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         verified: 1.1.33
@@ -663,7 +687,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -689,7 +713,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Text Rendering
-      type: 
+      type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -829,7 +853,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -2535,6 +2559,411 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
+    - packageId: co.echo3d.echounitysdk@file:C:\Users\Bebe\Documents\GitHub\Unity-echo3D-Demo-RollerBallPark\RollerBallPark\Packages\co.echo3d.unity
+      testable: 1
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 3
+      resolvedPath: C:\Users\Bebe\Documents\GitHub\Unity-echo3D-Demo-RollerBallPark\RollerBallPark\Packages\co.echo3d.unity
+      assetPath: Packages/co.echo3d.echounitysdk
+      name: co.echo3d.echounitysdk
+      displayName: echo3D Unity SDK
+      author:
+        name: echo3D
+        email: info@echo3d.co
+        url: https://www.echo3d.co/
+      category: 
+      type: 
+      description: 'The echo3D Unity SDK. By installing you confirm that you agree
+        with our Terms of Use: https://www.echo3D.co/terms'
+      status: 4
+      errors: []
+      versions:
+        all: []
+        compatible: []
+        verified: 
+      dependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.mathematics
+        version: 1.2.6
+      - name: com.unity.burst
+        version: 1.6.6
+      resolvedDependencies:
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.mathematics
+        version: 1.2.6
+      - name: com.unity.burst
+        version: 1.6.6
+      keywords:
+      - AR
+      - unity
+      - echo3D
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
+    - packageId: com.unity.mathematics@1.2.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.2.6
+      source: 1
+      resolvedPath: C:\Users\Bebe\Documents\GitHub\Unity-echo3D-Demo-RollerBallPark\RollerBallPark\Library\PackageCache\com.unity.mathematics@1.2.6
+      assetPath: Packages/com.unity.mathematics
+      name: com.unity.mathematics
+      displayName: Mathematics
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: asset
+      description: Unity's C# SIMD math library providing vector types and math functions
+        with a shader like syntax.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        - 1.2.4
+        - 1.2.5
+        - 1.2.6
+        verified: 1.2.6
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637841876140000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+        revision: f110c8c230d253654afed153569030a587cc7557
+        path: 
+    - packageId: com.unity.burst@1.6.6
+      testable: 0
+      isDirectDependency: 0
+      version: 1.6.6
+      source: 1
+      resolvedPath: C:\Users\Bebe\Documents\GitHub\Unity-echo3D-Demo-RollerBallPark\RollerBallPark\Library\PackageCache\com.unity.burst@1.6.6
+      assetPath: Packages/com.unity.burst
+      name: com.unity.burst
+      displayName: Burst
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: asset
+      description: Burst is a compiler that translates from IL/.NET bytecode to highly
+        optimized native code using LLVM.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.2.4-preview.5
+        - 0.2.4-preview.7
+        - 0.2.4-preview.11
+        - 0.2.4-preview.12
+        - 0.2.4-preview.13
+        - 0.2.4-preview.14
+        - 0.2.4-preview.15
+        - 0.2.4-preview.16
+        - 0.2.4-preview.17
+        - 0.2.4-preview.18
+        - 0.2.4-preview.19
+        - 0.2.4-preview.20
+        - 0.2.4-preview.21
+        - 0.2.4-preview.22
+        - 0.2.4-preview.23
+        - 0.2.4-preview.24
+        - 0.2.4-preview.25
+        - 0.2.4-preview.30
+        - 0.2.4-preview.31
+        - 0.2.4-preview.33
+        - 0.2.4-preview.34
+        - 0.2.4-preview.37
+        - 0.2.4-preview.41
+        - 0.2.4-preview.45
+        - 0.2.4-preview.48
+        - 0.2.4-preview.50
+        - 1.1.0-preview.2
+        - 1.1.0-preview.3
+        - 1.1.0-preview.4
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3-preview.3
+        - 1.2.0-preview.1
+        - 1.2.0-preview.5
+        - 1.2.0-preview.6
+        - 1.2.0-preview.8
+        - 1.2.0-preview.9
+        - 1.2.0-preview.10
+        - 1.2.0-preview.11
+        - 1.2.0-preview.12
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.3.0-preview.1
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.4
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0-preview.8
+        - 1.3.0-preview.9
+        - 1.3.0-preview.10
+        - 1.3.0-preview.11
+        - 1.3.0-preview.12
+        - 1.3.0-preview.13
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0-pre.1
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.4
+        - 1.4.0-preview.5
+        - 1.4.1-pre.1
+        - 1.4.1-pre.2
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4-preview.1
+        - 1.4.4-preview.2
+        - 1.4.4
+        - 1.4.5
+        - 1.4.6
+        - 1.4.7
+        - 1.4.8
+        - 1.4.9
+        - 1.4.11
+        - 1.5.0-pre.3
+        - 1.5.0-pre.4
+        - 1.5.0-pre.5
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6-preview.1
+        - 1.5.6
+        - 1.6.0-pre.2
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.7.0-pre.1
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.8.0-pre.1
+        - 1.8.0-pre.2
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        compatible:
+        - 1.1.1
+        - 1.1.2
+        - 1.1.3-preview.3
+        - 1.2.0-preview.1
+        - 1.2.0-preview.5
+        - 1.2.0-preview.6
+        - 1.2.0-preview.8
+        - 1.2.0-preview.9
+        - 1.2.0-preview.10
+        - 1.2.0-preview.11
+        - 1.2.0-preview.12
+        - 1.2.0
+        - 1.2.1
+        - 1.2.2
+        - 1.2.3
+        - 1.3.0-preview.1
+        - 1.3.0-preview.2
+        - 1.3.0-preview.3
+        - 1.3.0-preview.4
+        - 1.3.0-preview.5
+        - 1.3.0-preview.6
+        - 1.3.0-preview.7
+        - 1.3.0-preview.8
+        - 1.3.0-preview.9
+        - 1.3.0-preview.10
+        - 1.3.0-preview.11
+        - 1.3.0-preview.12
+        - 1.3.0-preview.13
+        - 1.3.0
+        - 1.3.1
+        - 1.3.2
+        - 1.3.3
+        - 1.3.4
+        - 1.3.5
+        - 1.3.6
+        - 1.3.7
+        - 1.3.8
+        - 1.3.9
+        - 1.4.0-pre.1
+        - 1.4.0-preview.1
+        - 1.4.0-preview.2
+        - 1.4.0-preview.3
+        - 1.4.0-preview.4
+        - 1.4.0-preview.5
+        - 1.4.1-pre.1
+        - 1.4.1-pre.2
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4-preview.1
+        - 1.4.4-preview.2
+        - 1.4.4
+        - 1.4.5
+        - 1.4.6
+        - 1.4.7
+        - 1.4.8
+        - 1.4.9
+        - 1.4.11
+        - 1.5.0-pre.3
+        - 1.5.0-pre.4
+        - 1.5.0-pre.5
+        - 1.5.0
+        - 1.5.1
+        - 1.5.2
+        - 1.5.3
+        - 1.5.4
+        - 1.5.5
+        - 1.5.6-preview.1
+        - 1.5.6
+        - 1.6.0-pre.2
+        - 1.6.0-pre.3
+        - 1.6.0-pre.4
+        - 1.6.0
+        - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.6.4
+        - 1.6.5
+        - 1.6.6
+        - 1.7.0-pre.1
+        - 1.7.0
+        - 1.7.1
+        - 1.7.2
+        - 1.7.3
+        - 1.7.4
+        - 1.8.0-pre.1
+        - 1.8.0-pre.2
+        - 1.8.0
+        - 1.8.1
+        - 1.8.2
+        verified: 1.4.11
+      dependencies:
+      - name: com.unity.mathematics
+        version: 1.2.1
+      resolvedDependencies:
+      - name: com.unity.mathematics
+        version: 1.2.6
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 0
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637902875830000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/burst.git
+        revision: 21ee3d01c6a374f6b01106f9eb6f1b43e113b1a3
+        path: 
     - packageId: com.unity.modules.subsystems@1.0.0
       testable: 0
       isDirectDependency: 0
@@ -2660,7 +3089,7 @@ m_PackageAssets:
         email: 
         url: 
       category: Libraries
-      type: 
+      type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
       status: 4
@@ -2699,7 +3128,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -2725,7 +3154,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
@@ -2804,6 +3233,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -2832,6 +3263,8 @@ m_PackageAssets:
         - 1.7.0-pre.2
         - 1.7.0
         - 1.7.1
+        - 1.7.2
+        - 1.8.0
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -2865,7 +3298,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -2891,7 +3324,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: "This package provides Unity C# bindings to the Autodesk\xAE FBX\xAE
         SDK."
       status: 4
@@ -2915,6 +3348,8 @@ m_PackageAssets:
         - 4.1.0
         - 4.1.1
         - 4.2.0-pre.1
+        - 4.2.0
+        - 5.0.0-pre.1
         compatible:
         - 2.0.0-preview
         - 2.0.0-preview.4
@@ -2933,6 +3368,8 @@ m_PackageAssets:
         - 4.1.0
         - 4.1.1
         - 4.2.0-pre.1
+        - 4.2.0
+        - 5.0.0-pre.1
         verified: 
       dependencies: []
       resolvedDependencies: []
@@ -2950,7 +3387,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -2976,7 +3413,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: library
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3056,7 +3493,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: 'This package defines common components used by multiple Game
         Service packages.
 
@@ -3080,6 +3517,9 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3095,6 +3535,9 @@ m_PackageAssets:
         - 1.4.0
         - 1.4.1
         - 1.4.2
+        - 1.4.3
+        - 1.5.2
+        - 1.6.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3111,7 +3554,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
