@@ -13,7 +13,7 @@ Don't have an echo3D API key? Make sure to register for FREE at [echo3D](https:/
 * [Add the assets](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Unity 'Models' folder.
 * Uncheck the [Security](https://docs.echo3d.co/web-console/deliver-pages/security-page) box in your console.
 * Open the _SampleScene_ scene.
-* [Add the API key](https://docs.echo3D.co/unity/using-the-sdk) on the echo3D objects in the Hierarchy using the Inspector for all the Models in the folder (Ball & Floors).
+* [Add the API key](https://docs.echo3D.co/unity/using-the-sdk) on the echo3D objects in the Hierarchy using the Inspector for all the Models in the folder (Ball & Floors). <br>
 ![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/182944174-b24d92dc-28da-4afe-b98c-5a9a0f8b0ae7.png) <br>
 ![Hierarchy](https://user-images.githubusercontent.com/99516371/176975148-ccec86c5-c322-41f9-9cbb-509e1a613e2a.png)
 
