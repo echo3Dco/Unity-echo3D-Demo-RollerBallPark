@@ -1,21 +1,37 @@
 # Unity-echo3D-Demo-RollerBallPark
 Roll up to the finish line and use just the right amount of force to stay on the platform! Push the cubes out of your way without pushing yourself off.
 
-## Version
-[Unity 2020.3.25f1](https://unity3d.com/get-unity/download/archive)
-
-## Register
-Don't have an echo3D API key? Make sure to register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
 
 ## Setup
-* Clone this [repo](https://github.com/echo3Dco/Unity-echo3D-Demo-RollerBallPark).
-* [Install the echo3D Unity SDK](https://docs.echo3D.co/unity/installation). Troubleshoot [here](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Ftroubleshooting%23im-getting-a-newtonsoft.json.dll-error-in-unity).
-* [Add the assets](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Unity 'Models' folder.
-* Uncheck the [Security](https://docs.echo3d.co/web-console/deliver-pages/security-page) box in your console.
+* Built with Unity 2020.3.25.  _(Note: The echo3D Unity SDK is supported in 2020.3.25 and higher.)_
+* Register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
+* [Add the Unity SDK](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Finstallation). Troubleshoot [here](https://docs.echo3d.com/unity/troubleshooting#im-getting-a-newtonsoft.json.dll-error-in-unity).
+* Clone this repo. 
+
+
+## Setup
+* [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Unity Assets/Models folder:  <br>
+      - Ball <br>
+      - Floor <br>
+      - Floor (1)<br>
+      - Floor (2)<br>
+      - Floor (3)<br>
+      - Floor (4)<br>
+
+
 * Open the _SampleScene_ scene.
-* [Add the API key](https://docs.echo3D.co/unity/using-the-sdk) on the echo3D objects in the Hierarchy using the Inspector for all the Models in the folder (Ball & Floors). <br>
-![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/182944174-b24d92dc-28da-4afe-b98c-5a9a0f8b0ae7.png) <br>
-![NEWAPIKeyandEntryID](https://user-images.githubusercontent.com/99516371/205401833-346d06f9-8ddc-4d84-a0d2-2d238cb87b5d.png)
+* [Set the API key](https://docs.echo3d.co/quickstart/access-the-console) and Entry IDs for those same models in the Inspector. <br>
+![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/195749269-f7a43477-b67a-49e8-a212-6abdb9c948fd.png)<br>
+![NEWAPIKeyandEntryID](https://user-images.githubusercontent.com/99516371/205407613-b746840f-8e8a-4ec8-b056-a680395dfab4.png)<br>
+
+* [Type your Secret Key](https://docs.echo3d.co/web-console/deliver-pages/security-page#secret-key) as the value for the parameter secKey in the file Packages/co.echo3D.unity/Runtime/Echo3DHologram.cs. _(Note: Secret Key only matters if you have the Security Key enabled). You can turn it off in the Security options in your echo3D console._
+![NEWSecKey2](https://user-images.githubusercontent.com/99516371/195749308-b2349a3b-7e43-4d3c-8f09-fbfa9d3cb0be.png)<br>
+
+
+* (Recommended) To move, resize or edit the assets live in your Scene view, check the boxes for “Editor Preview” and “Ignore Model Transforms”. To enable this, click Echo3D > Load Editor Holograms in your Unity toolbar. <br>
+![EditorPreviewAndIgnoreModelTransforms](https://user-images.githubusercontent.com/99516371/195749348-dc0b06ad-efa6-4dbd-962f-0119b5c33ea0.png)<br>
+![LoadHolograms](https://user-images.githubusercontent.com/99516371/195749354-b2295183-f877-444a-af22-ed87ffb17705.png) <br>
+
 
 
 ## Run
